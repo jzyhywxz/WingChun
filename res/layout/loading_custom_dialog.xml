@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loading_dialog_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="此APP仅用于介绍南京大学武术协会咏春分会！可以用于个人学术参考，不得用于任何商业用途！由于个人技术水平以及时间精力所限，此APP目前仅为测试版！并且仅包含对咏春分会的简单介绍！如果您同意此协议，请点击同意，否则请点击退出！若在使用过程中发现任何问题，欢迎联系作者zzw。tel:18587271140，email:2289996980@qq.com。感谢您的使用！"
+            android:textColor="#ff0000"
+            android:textSize="15sp" />
+
+    </ScrollView>
+
+</LinearLayout>
